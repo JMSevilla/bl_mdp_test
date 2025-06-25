@@ -1,0 +1,528 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.MdpService.Test\\WTW.MdpService.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.MdpService.Test\\WTW.MdpService.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.MdpService.Test\\WTW.MdpService.Test.csproj",
+        "projectName": "WTW.MdpService.Test",
+        "projectPath": "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.MdpService.Test\\WTW.MdpService.Test.csproj",
+        "packagesPath": "C:\\Users\\jm4583104\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.MdpService.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\NuGet.Config",
+          "C:\\Users\\jm4583104\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://tasnexus.internal.towerswatson.com/repository/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.MdpService\\WTW.MdpService.csproj": {
+                "projectPath": "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.MdpService\\WTW.MdpService.csproj"
+              },
+              "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.TestCommon\\WTW.TestCommon.csproj": {
+                "projectPath": "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.TestCommon\\WTW.TestCommon.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Fixie.TestAdapter": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.116\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.MdpService\\WTW.MdpService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.MdpService\\WTW.MdpService.csproj",
+        "projectName": "WTW.MdpService",
+        "projectPath": "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.MdpService\\WTW.MdpService.csproj",
+        "packagesPath": "C:\\Users\\jm4583104\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.MdpService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\NuGet.Config",
+          "C:\\Users\\jm4583104\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://tasnexus.internal.towerswatson.com/repository/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.Web\\WTW.Web.csproj": {
+                "projectPath": "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.Web\\WTW.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.9.42, )"
+            },
+            "AWSSDK.SecurityToken": {
+              "target": "Package",
+              "version": "[3.7.1.190, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.59, )"
+            },
+            "IronPdf.Linux": {
+              "target": "Package",
+              "version": "[2024.4.2, )"
+            },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            },
+            "MessageBird": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Microsoft.AspNetCore.HeaderPropagation": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.21.90, )"
+            },
+            "Scriban": {
+              "target": "Package",
+              "version": "[5.10.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "WTW.MessageBroker": {
+              "target": "Package",
+              "version": "[2.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.116\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.TestCommon\\WTW.TestCommon.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.TestCommon\\WTW.TestCommon.csproj",
+        "projectName": "WTW.TestCommon",
+        "projectPath": "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.TestCommon\\WTW.TestCommon.csproj",
+        "packagesPath": "C:\\Users\\jm4583104\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.TestCommon\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\NuGet.Config",
+          "C:\\Users\\jm4583104\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://tasnexus.internal.towerswatson.com/repository/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Fixie": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Fixie.TestAdapter": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.116\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.Web\\WTW.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.Web\\WTW.Web.csproj",
+        "projectName": "WTW.Web",
+        "projectPath": "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.Web\\WTW.Web.csproj",
+        "packagesPath": "C:\\Users\\jm4583104\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\WTW.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jm4583104\\OneDrive - Willis Towers Watson\\Documents\\assure_adv\\assure-bl\\assure-bl\\src\\bl\\NuGet.Config",
+          "C:\\Users\\jm4583104\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://tasnexus.internal.towerswatson.com/repository/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DogStatsD-CSharp-Client": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            },
+            "Microsoft.IdentityModel.Protocols": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            },
+            "Microsoft.IdentityModel.Protocols.OpenIdConnect": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.21.90, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Serilog.Enrichers.CorrelationId": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "StackExchange.Redis.Extensions.AspNetCore": {
+              "target": "Package",
+              "version": "[10.2.0, )"
+            },
+            "StackExchange.Redis.Extensions.Core": {
+              "target": "Package",
+              "version": "[10.2.0, )"
+            },
+            "StackExchange.Redis.Extensions.System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.116\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
